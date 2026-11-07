@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ready Hen Stage</title>
+
+  <!-- Adobe Edge Runtime -->
+  <script src="edge_includes/edge.6.0.0.min.js"></script>
+
+  <style>
+    html,
+    body {
+      width: 100%;
+      min-height: 100%;
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      justify-content: center; /* center horizontally */
+      align-items: flex-start; /* start at top; see note below */
+      overflow-x: hidden;
+    }
+
+    #Stage {
+      width: 100%;
+      max-width: 1024px;
+      margin: 0 auto;
+    }
+
+    .edgeLoad-words {
+      visibility: hidden;
+    }
+  </style>
+
+  <script>
+    AdobeEdge.loadComposition('index', 'words', {
+      scaleToFit: "width",
+      centerStage: "horizontal",
+      minW: "0px",
+      maxW: "1024px",
+      width: "1024px",
+      height: "768px"
+    }, {
+      dom: [
+        {
+          id: 'preloader',
+          type: 'image',
+          tag: 'img',
+          rect: ['387px', '274px', '250px', '219px', 'auto', 'auto'],
+          fill: ["rgba(0,0,0,0)", 'images/preloader.png', '0px', '0px']
+        }
+      ],
+      style: {
+        '${symbolSelector}': {
+          isStage: true,
+          rect: [undefined, undefined, '1024px', '768px'],
+          fill: ["rgba(255,255,255,1)"]
+        }
+      }
+    }, {"dom":[]});
+  </script>
+
+  <script src="cordova.js"></script>
+</head>
+
+<body>
+  <div id="Stage" class="words"></div>
+</body>
+</html>

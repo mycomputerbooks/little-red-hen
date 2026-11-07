@@ -1,0 +1,381 @@
+[		                              
+    {
+    "pageName" : "pageCover",
+    "pageType" : "picOnlySelfie",
+    "navPage" : true,
+    "pageDown1Name" : "none",
+		"defaultTalkie" : true,
+		"imageWidth" : 731,
+		"imageHeight" : 720,
+		"talkieAngle" : "11.91",
+		"talkieHeight" : 151,
+    "talkieLeft" : 820,
+		"talkieTop" : 57,
+    "talkieWidth" : 154
+    },
+    {
+    "pageName" : "pageTOC",
+    "pageType" : "none",
+    "navPage" : true,
+    "pageDown1Name" : "none"
+    },
+    {
+    "pageName" : "pageChapter1",
+    "pageType" : "chapter",
+    "navPage" : true,
+    "pageDown1Name" : "none"
+    },
+    {
+    "pageName" : "page01",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game01",
+		"defaultTalkie" : true,
+		"imageWidth" : 200,
+		"imageHeight" : 187,
+		"talkieAngle" : "-2.21",
+		"talkieHeight" : 123,
+    "talkieLeft" : 846,
+		"talkieTop" : 424,
+    "talkieWidth" : 131
+    },
+    {
+    "pageName" : "page02",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game02",
+		"defaultTalkie" : true,
+		"imageWidth" : 200,
+		"imageHeight" : 187,
+		"talkieAngle" : "-3.65",
+		"talkieHeight" : 135,
+    "talkieLeft" : 468,
+		"talkieTop" : 521,
+    "talkieWidth" : 162
+    },
+    {
+    "pageName" : "page03",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game03",
+		"defaultTalkie" : true,
+		"imageWidth" : 150,
+		"imageHeight" : 200,
+		"talkieAngle" : "0.00",
+		"talkieHeight" : 200,
+    "talkieLeft" : 759,
+		"talkieTop" : 40,
+    "talkieWidth" : 150
+    },
+    {
+    "pageName" : "page04",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game04",
+		"defaultTalkie" : false
+    },
+    {
+    "pageName" : "page05",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game05",
+		"defaultTalkie" : false
+    },
+    {
+    "pageName" : "pageChapter1After",
+    "pageType" : "picOnlySelfie",
+    "navPage" : true,
+    "pageDown1Name" : "none",
+		"defaultTalkie" : true,
+		"imageWidth" : 200,
+		"imageHeight" : 97,
+		"talkieAngle" : "0.00",
+		"talkieHeight" : 97,
+    "talkieLeft" : 756,
+		"talkieTop" : 252,
+    "talkieWidth" : 200
+    },
+    {
+    "pageName" : "pageChapter2",
+    "pageType" : "chapter",
+    "navPage" : true,
+    "pageDown1Name" : "none"
+    },
+    {
+    "pageName" : "page06",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game06",
+		"defaultTalkie" : true,
+		"imageWidth" : 421,
+		"imageHeight" : 720,
+		"talkieAngle" : "-0.32",
+		"talkieHeight" : 156,
+    "talkieLeft" : 616,
+		"talkieTop" : 220,
+    "talkieWidth" : 91
+    },
+    {
+    "pageName" : "page07",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game07",
+		"defaultTalkie" : true,
+		"imageWidth" : 200,
+		"imageHeight" : 158,
+		"talkieAngle" : "0.05",
+		"talkieHeight" : 124,
+    "talkieLeft" : 509,
+		"talkieTop" : 417,
+    "talkieWidth" : 157
+    },
+    {
+    "pageName" : "page08",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game08",
+		"defaultTalkie" : true,
+		"imageWidth" : 200,
+		"imageHeight" : 168,
+		"talkieAngle" : "-2.03",
+		"talkieHeight" : 109,
+    "talkieLeft" : 376,
+		"talkieTop" : 541,
+    "talkieWidth" : 130
+    },
+    {
+    "pageName" : "page09",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game09",
+		"defaultTalkie" : true,
+		"imageWidth" : 389,
+		"imageHeight" : 697,
+		"talkieAngle" : "0.00",
+		"talkieHeight" : 172,
+    "talkieLeft" : 391,
+		"talkieTop" : 545,
+    "talkieWidth" : 97
+    },
+    {
+    "pageName" : "page10",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game10",
+		"defaultTalkie" : false
+    },
+    {
+    "pageName" : "page11",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game11",
+		"defaultTalkie" : false
+    },
+    {
+    "pageName" : "page12",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game12",
+		"defaultTalkie" : false
+    },
+    {
+    "pageName" : "page13",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game13",
+		"defaultTalkie" : false
+    },
+    {
+    "pageName" : "pageChapter2After",
+    "pageType" : "picOnlySelfie",
+    "navPage" : true,
+    "pageDown1Name" : "none",
+		"defaultTalkie" : false
+    },
+    {
+    "pageName" : "pageChapter3",
+    "pageType" : "chapter",
+    "navPage" : true,
+    "pageDown1Name" : "none"
+    },
+    {
+    "pageName" : "page14",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game14",
+		"defaultTalkie" : false
+    },
+    {
+    "pageName" : "page15",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game15",
+		"defaultTalkie" : true,
+		"imageWidth" : 734,
+		"imageHeight" : 660,
+		"talkieAngle" : "-0.10",
+		"talkieHeight" : 174,
+    "talkieLeft" : 590,
+		"talkieTop" : 47,
+    "talkieWidth" : 193
+    },
+    {
+    "pageName" : "page16",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game16",
+		"defaultTalkie" : true,
+		"imageWidth" : 629,
+		"imageHeight" : 636,
+		"talkieAngle" : "-2.06",
+		"talkieHeight" : 142,
+    "talkieLeft" : 259,
+		"talkieTop" : 539,
+    "talkieWidth" : 141
+    },
+    {
+    "pageName" : "pageChapter3After",
+    "pageType" : "picOnlySelfie",
+    "navPage" : true,
+    "pageDown1Name" : "none",
+		"defaultTalkie" : false
+    },
+    {
+    "pageName" : "pageChapter4",
+    "pageType" : "chapter",
+    "navPage" : true,
+    "pageDown1Name" : "none"
+    },
+    {
+    "pageName" : "page17",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game17",
+		"defaultTalkie" : false
+    },
+    {
+    "pageName" : "page18",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game18",
+		"defaultTalkie" : false
+    },
+    {
+    "pageName" : "page19",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game19",
+		"defaultTalkie" : false
+    },
+    {
+    "pageName" : "page20",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game20",
+		"defaultTalkie" : false
+    },
+    {
+    "pageName" : "page21",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game21",
+		"defaultTalkie" : true,
+		"imageWidth" : 628,
+		"imageHeight" : 720,
+		"talkieAngle" : "-1.94",
+		"talkieHeight" : 147,
+    "talkieLeft" : 876,
+		"talkieTop" : 96,
+    "talkieWidth" : 138
+    },
+    {
+    "pageName" : "pageChapter4After",
+    "pageType" : "picOnlySelfie",
+    "navPage" : true,
+    "pageDown1Name" : "none",
+		"defaultTalkie" : false
+    },
+    {
+    "pageName" : "pageChapter5",
+    "pageType" : "chapter",
+    "navPage" : true,
+    "pageDown1Name" : "none"
+    },
+    {
+    "pageName" : "page22",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game22",
+		"defaultTalkie" : false
+    },
+    {
+    "pageName" : "page23",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game23",
+		"defaultTalkie" : false
+    },
+    {
+    "pageName" : "page24",
+    "pageType" : "selfie",
+    "navPage" : true,
+    "pageDown1Name" : "game24",
+		"defaultTalkie" : true,
+		"imageWidth" : 200,
+		"imageHeight" : 183,
+		"talkieAngle" : "0.51",
+		"talkieHeight" : 164,
+    "talkieLeft" : 812,
+		"talkieTop" : 540,
+    "talkieWidth" : 179
+    },
+    {
+    "pageName" : "pageChapter5After",
+    "pageType" : "picOnlySelfie",
+    "navPage" : true,
+    "pageDown1Name" : "none",
+		"defaultTalkie" : false
+    },    
+    {
+    "pageName" : "pageBonus",
+    "pageType" : "none",
+    "navPage" : true,
+    "pageDown1Name" : "none"
+    },
+    {
+    "pageName" : "pageDiscussion",
+    "pageType" : "songPage",
+    "navPage" : true,
+    "pageDown1Name" : "none"
+    },
+    {
+    "pageName" : "pageSong",
+    "pageType" : "songPage",
+    "navPage" : true,
+    "pageDown1Name" : "pageSingALong"
+    },
+    {
+    "pageName" : "page25",
+    "pageType" : "songPage",
+    "navPage" : true,
+    "pageDown1Name" : "none"
+    },    
+    {
+    "pageName" : "pageSingALong",
+    "pageType" : "songPage",
+    "navPage" : true,
+    "pageDown1Name" : "none"
+    },
+    {
+    "pageName" : "pageThatsAllFolks",
+    "pageType" : "none",
+    "navPage" : true,
+    "pageDown1Name" : "none"
+    },
+		{
+    "pageName" : "pageRating",
+    "pageType" : "none",
+    "navPage" : true,
+    "pageDown1Name" : "none"
+    }
+]

@@ -1,0 +1,744 @@
+[		              
+                {
+		"word" : "barnyard",                
+                "fontSize" : 37,
+                
+                "noteBlock01" : "-------------- block01  ----------------",
+		
+                "colorBlock01" : "images/OrangeBox.png",
+		"part01" : "barn",
+				
+		"block01FirstLetter" : "-----------  block 01 first letter set -------",		
+		"let01_01" : "b",
+		"leftLet01_01" : 33,
+		"colorLet01_01" : "yellow",
+		
+		"block01SecondLetter" : "---------- block 01 second letter set ------------",
+		"let01_02" : "ar",
+		"leftlet01_02" : 56,
+		"colorlet01_02" : "",
+		
+                "block01ThirdLetter" : "-----------  block 01 third letter set  -------",		
+		"let01_03" : "n",
+		"leftLet01_03" : 94,
+		"colorLet01_03" : "yellow",
+                
+                "block01ForthLetter" : "-----------  block 01 forth letter set -------",		
+		"let01_04" : "",
+		"leftLet01_04" : 86,
+		"colorLet01_04" : "yellow", 
+                
+                "noteBlock02" : "-------------- block02 ----------------",
+		
+		"colorBlock02" : "images/GreenBox.png",
+		"part02" : "yard",		
+		
+		"block02FirstLetter" : "-----------  block 02 first letter set  -------",		
+		"let02_01" : "y",
+		"leftLet02_01" : 33,
+		"colorLet02_01" : "yellow",
+		
+		"block02SecondLetter" : "---------- block 02 second letter set ------------",
+		"let02_02" : "ar",
+		"leftLet02_02" : 56,
+		"colorLet02_02" : "yellow",
+		
+		"block02ThirdLetter" : "-----------  block 02 third letter set -------",		
+		"let02_03" : "d",
+		"leftLet02_03" : 94,
+		"colorLet02_03" : "yellow",
+                
+                "block02ForthLetter" : "-----------  block 02 forth letter set -------",		
+		"let02_04" : "",
+		"leftLet02_04" : 86,
+		"colorLet02_04" : "yellow", 
+                		                              
+                "noteBlock03     " : "-------------- block03 ----------------",						
+		"part03" : "none",		
+				                
+		"noteBlock04     " : "-------------- block04 ----------------",				
+		"part04" : "none",
+                
+                "noteBlock05     " : "-------------- block05 ----------------",				
+		"part05" : "none"
+		},
+                {
+		"word" : "beautiful",
+                "fontSize" : 37,
+                
+                "noteBlock01" : "-------------- block01  ----------------",
+		
+                "colorBlock01" : "images/PurpleBox.png",
+		"part01" : "beau",
+		
+		
+		"block01FirstLetter" : "-----------  block 01 first letter set -------",		
+		"let01_01" : "b",
+		"leftLet01_01" : 31,
+		"colorLet01_01" : "yellow",
+		
+		"block01SecondLetter" : "---------- block 01 second letter set ------------",
+		"let01_02" : "eau",
+		"leftlet01_02" : 54,
+		"colorlet01_02" : "yellow",
+		
+                "block01ThirdLetter" : "-----------  block 01 third letter set  -------",		
+		"let01_03" : "",
+		"leftLet01_03" : 94,
+		"colorLet01_03" : "yellow",
+                
+                "block01ForthLetter" : "-----------  block 01 forth letter set -------",		
+		"let01_04" : "",
+		"leftLet01_04" : 86,
+		"colorLet01_04" : "yellow", 
+                		                              
+		"noteBlock02" : "-------------- block02 ----------------",
+		
+		"colorBlock02" : "images/TurquoiseBox.png",
+		"part02" : "ti",		
+		
+		"block02FirstLetter" : "-----------  block 02 first letter set  -------",		
+		"let02_01" : "ti",
+		"leftLet02_01" : 61,
+		"colorLet02_01" : "yellow",
+		
+		"block02SecondLetter" : "---------- block 02 second letter set ------------",
+		"let02_02" : "",
+		"leftLet02_02" : 72,
+		"colorLet02_02" : "yellow",
+		
+		"block02ThirdLetter" : "-----------  block 02 third letter set -------",		
+		"let02_03" : "",
+		"leftLet02_03" : 80,
+		"colorLet02_03" : "yellow",
+                
+                "block02ForthLetter" : "-----------  block 02 forth letter set -------",		
+		"let02_04" : "",
+		"leftLet02_04" : 86,
+		"colorLet02_04" : "yellow", 
+		
+		"noteBlock03     " : "-------------- block03 ----------------",				
+		"colorBlock03" : "images/BlueBox.png",
+		"part03" : "ful",		
+		
+		"block03FirstLetter" : "-----------  block 03 first letter set -------",		
+		"let03_01" : "f",
+		"leftLet03_01" : 46,
+		"colorLet03_01" : "yellow",
+		
+		"block03SecondLetter" : "---------- block 03 second letter set ------------",
+		"let03_02" : "ul",
+		"leftLet03_02" : 65,
+		"colorLet03_02" : "yellow",
+		
+		"block03ThirdLetter" : "-----------  block 03 third letter set -------",		
+		"let03_03" : "",
+		"leftLet03_03" : 96,
+		"colorLet03_03" : "yellow",
+                
+                "block03ForthLetter" : "-----------  block 03 forth letter set -------",		
+		"let03_04" : "",
+		"leftLet03_04" : 86,
+		"colorLet03_04" : "yellow", 
+		
+		"noteBlock04     " : "-------------- block04 ----------------",				
+		"part04" : "none",
+                
+                "noteBlock05     " : "-------------- block05 ----------------",				
+		"part05" : "none"
+		},
+                
+                {
+		"word" : "brought",
+                "fontSize" : 32,
+                
+                "noteBlock01" : "-------------- block01  ----------------",
+		
+                "colorBlock01" : "images/PurpleBox.png",
+		"part01" : "brought",
+		
+		
+		"block01FirstLetter" : "-----------  block 01 first letter set -------",		
+		"let01_01" : "br",
+		"leftLet01_01" : 16,
+		"colorLet01_01" : "yellow",
+		
+		"block01SecondLetter" : "---------- block 01 second letter set ------------",
+		"let01_02" : "ought",
+		"leftlet01_02" : 50,
+		"colorlet01_02" : "yellow",
+		
+                "block01ThirdLetter" : "-----------  block 01 third letter set  -------",		
+		"let01_03" : "",
+		"leftLet01_03" : 94,
+		"colorLet01_03" : "yellow",
+                
+                "block01ForthLetter" : "-----------  block 01 forth letter set -------",		
+		"let01_04" : "",
+		"leftLet01_04" : 86,
+		"colorLet01_04" : "yellow", 
+                		                              
+		"noteBlock02"      : "-------------- block02 ----------------",				
+		"part02" : "none",		
+						
+		"noteBlock03     " : "-------------- block03 ----------------",						
+		"part03" : "none",		
+						
+		"noteBlock04     " : "-------------- block04 ----------------",				
+		"part04" : "none",
+                
+                "noteBlock05     " : "-------------- block05 ----------------",				
+		"part05" : "none"
+		},
+                {
+		"word" : "carrying",
+                "fontSize" : 37,
+                
+                "noteBlock01" : "-------------- block01  ----------------",
+		
+                "colorBlock01" : "images/PurpleBox.png",
+		"part01" : "car",
+		
+		
+		"block01FirstLetter" : "-----------  block 01 first letter set -------",		
+		"let01_01" : "c",
+		"leftLet01_01" : 43,
+		"colorLet01_01" : "yellow",
+		
+		"block01SecondLetter" : "---------- block 01 second letter set ------------",
+		"let01_02" : "ar",
+		"leftlet01_02" : 65,
+		"colorlet01_02" : "yellow",
+		
+                "block01ThirdLetter" : "-----------  block 01 third letter set  -------",		
+		"let01_03" : "",
+		"leftLet01_03" : 94,
+		"colorLet01_03" : "yellow",
+                
+                "block01ForthLetter" : "-----------  block 01 forth letter set -------",		
+		"let01_04" : "",
+		"leftLet01_04" : 86,
+		"colorLet01_04" : "yellow", 
+                		                              
+		"noteBlock02" : "-------------- block02 ----------------",
+		
+		"colorBlock02" : "images/TurquoiseBox.png",
+		"part02" : "ry",		
+		
+		"block02FirstLetter" : "-----------  block 02 first letter set  -------",		
+		"let02_01" : "ry",
+		"leftLet02_01" : 56,
+		"colorLet02_01" : "yellow",
+		
+		"block02SecondLetter" : "---------- block 02 second letter set ------------",
+		"let02_02" : "",
+		"leftLet02_02" : 72,
+		"colorLet02_02" : "yellow",
+		
+		"block02ThirdLetter" : "-----------  block 02 third letter set -------",		
+		"let02_03" : "",
+		"leftLet02_03" : 80,
+		"colorLet02_03" : "yellow",
+                
+                "block02ForthLetter" : "-----------  block 02 forth letter set -------",		
+		"let02_04" : "",
+		"leftLet02_04" : 86,
+		"colorLet02_04" : "yellow", 
+		
+		"noteBlock03     " : "-------------- block03 ----------------",				
+		"colorBlock03" : "images/BlueBox.png",
+		"part03" : "ing",		
+		
+		"block03FirstLetter" : "-----------  block 03 first letter set -------",		
+		"let03_01" : "ing",
+		"leftLet03_01" : 53,
+		"colorLet03_01" : "yellow",
+		
+		"block03SecondLetter" : "---------- block 03 second letter set ------------",
+		"let03_02" : "",
+		"leftLet03_02" : 67,
+		"colorLet03_02" : "yellow",
+		
+		"block03ThirdLetter" : "-----------  block 03 third letter set -------",		
+		"let03_03" : "",
+		"leftLet03_03" : 96,
+		"colorLet03_03" : "yellow",
+                
+                "block03ForthLetter" : "-----------  block 03 forth letter set -------",		
+		"let03_04" : "",
+		"leftLet03_04" : 86,
+		"colorLet03_04" : "yellow", 
+		
+		"noteBlock04     " : "-------------- block04 ----------------",				
+		"part04" : "none",
+                
+                "noteBlock05     " : "-------------- block05 ----------------",				
+		"part05" : "none"
+		},
+                {
+		"word" : "distant",
+                "fontSize" : 37,
+                
+                "noteBlock01" : "-------------- block01  ----------------",
+		
+                "colorBlock01" : "images/RedBox.png",
+		"part01" : "dis",
+		
+		
+		"block01FirstLetter" : "-----------  block 01 first letter set -------",		
+		"let01_01" : "d",
+		"leftLet01_01" : 47,
+		"colorLet01_01" : "yellow",
+		
+		"block01SecondLetter" : "---------- block 01 second letter set ------------",
+		"let01_02" : "is",
+		"leftlet01_02" : 70,
+		"colorlet01_02" : "yellow",
+		
+                "block01ThirdLetter" : "-----------  block 01 third letter set  -------",		
+		"let01_03" : "",
+		"leftLet01_03" : 89,
+		"colorLet01_03" : "yellow",
+                
+                "block01ForthLetter" : "-----------  block 01 forth letter set -------",		
+		"let01_04" : "",
+		"leftLet01_04" : 86,
+		"colorLet01_04" : "yellow", 
+                		                
+		"noteBlock02" : "-------------- block02 ----------------",
+		
+		"colorBlock02" : "images/GreenBox.png",
+		"part02" : "tant",		
+		
+		"block02FirstLetter" : "-----------  block 02 first letter set  -------",		
+		"let02_01" : "t",
+		"leftLet02_01" : 37,
+		"colorLet02_01" : "yellow",
+		
+		"block02SecondLetter" : "---------- block 02 second letter set ------------",
+		"let02_02" : "ant",
+		"leftLet02_02" : 55,
+		"colorLet02_02" : "yellow",
+		
+		"block02ThirdLetter" : "-----------  block 02 third letter set -------",		
+		"let02_03" : "",
+		"leftLet02_03" : 77,
+		"colorLet02_03" : "yellow",
+                
+                "block02ForthLetter" : "-----------  block 02 forth letter set -------",		
+		"let02_04" : "",
+		"leftLet02_04" : 86,
+		"colorLet02_04" : "yellow", 
+                               		
+		"noteBlock03     " : "-------------- block03 ----------------",						
+		"part03" : "none",		
+				                
+                "noteBlock04     " : "-------------- block04 ----------------",					
+		"part04" : "none",
+                
+		"noteBlock05     " : "-------------- block05 ----------------",				
+		"part05" : "none"		
+		},
+                 {
+		"word" : "fashion",                
+                "fontSize" : 37,
+                
+                "noteBlock01" : "-------------- block01  ----------------",
+		
+                "colorBlock01" : "images/YellowBox.png",
+		"part01" : "fash",
+				
+		"block01FirstLetter" : "-----------  block 01 first letter set -------",		
+		"let01_01" : "f",
+		"leftLet01_01" : 33,
+		"colorLet01_01" : "yellow",
+		
+		"block01SecondLetter" : "---------- block 01 second letter set ------------",
+		"let01_02" : "ash",
+		"leftlet01_02" : 52,
+		"colorlet01_02" : "",
+		
+                "block01ThirdLetter" : "-----------  block 01 third letter set  -------",		
+		"let01_03" : "",
+		"leftLet01_03" : 77,
+		"colorLet01_03" : "yellow",
+                
+                "block01ForthLetter" : "-----------  block 01 forth letter set -------",		
+		"let01_04" : "",
+		"leftLet01_04" : 86,
+		"colorLet01_04" : "yellow", 
+                
+                "noteBlock02" : "-------------- block02 ----------------",
+		
+		"colorBlock02" : "images/GreenBox.png",
+		"part02" : "ion",		
+		
+		"block02FirstLetter" : "-----------  block 02 first letter set  -------",		
+		"let02_01" : "ion",
+		"leftLet02_01" : 53,
+		"colorLet02_01" : "yellow",
+		
+		"block02SecondLetter" : "---------- block 02 second letter set ------------",
+		"let02_02" : "",
+		"leftLet02_02" : 47,
+		"colorLet02_02" : "yellow",
+		
+		"block02ThirdLetter" : "-----------  block 02 third letter set -------",		
+		"let02_03" : "",
+		"leftLet02_03" : 89,
+		"colorLet02_03" : "yellow",
+                
+                "block02ForthLetter" : "-----------  block 02 forth letter set -------",		
+		"let02_04" : "",
+		"leftLet02_04" : 86,
+		"colorLet02_04" : "yellow", 
+                		                              
+                "noteBlock03     " : "-------------- block03 ----------------",						
+		"part03" : "none",		
+				                
+		"noteBlock04     " : "-------------- block04 ----------------",				
+		"part04" : "none",
+                
+                "noteBlock05     " : "-------------- block05 ----------------",				
+		"part05" : "none"
+		},
+                {
+		"word" : "into",
+                "fontSize" : 37,
+                
+                "noteBlock01" : "-------------- block01  ----------------",
+		
+                "colorBlock01" : "images/MagentaBox.png",
+		"part01" : "in",
+		
+		
+		"block01FirstLetter" : "-----------  block 01 first letter set -------",		
+		"let01_01" : "in",
+		"leftLet01_01" : 60,
+		"colorLet01_01" : "yellow",
+		
+		"block01SecondLetter" : "---------- block 01 second letter set ------------",
+		"let01_02" : "",
+		"leftlet01_02" : 60,
+		"colorlet01_02" : "yellow",
+		
+                "block01ThirdLetter" : "-----------  block 01 third letter set  -------",		
+		"let01_03" : "",
+		"leftLet01_03" : 89,
+		"colorLet01_03" : "yellow",
+                
+                "block01ForthLetter" : "-----------  block 01 forth letter set -------",		
+		"let01_04" : "",
+		"leftLet01_04" : 86,
+		"colorLet01_04" : "yellow", 
+                		                
+		"noteBlock02" : "-------------- block02 ----------------",
+		
+		"colorBlock02" : "images/GreenBox.png",
+		"part02" : "to",		
+		
+		"block02FirstLetter" : "-----------  block 02 first letter set  -------",		
+		"let02_01" : "to",
+		"leftLet02_01" : 60,
+		"colorLet02_01" : "yellow",
+		
+		"block02SecondLetter" : "---------- block 02 second letter set ------------",
+		"let02_02" : "",
+		"leftLet02_02" : 77,
+		"colorLet02_02" : "yellow",
+		
+		"block02ThirdLetter" : "-----------  block 02 third letter set -------",		
+		"let02_03" : "",
+		"leftLet02_03" : 77,
+		"colorLet02_03" : "yellow",
+                
+                "block02ForthLetter" : "-----------  block 02 forth letter set -------",		
+		"let02_04" : "",
+		"leftLet02_04" : 86,
+		"colorLet02_04" : "yellow", 
+                               		
+		"noteBlock03     " : "-------------- block03 ----------------",						
+		"part03" : "none",		
+				                
+                "noteBlock04     " : "-------------- block04 ----------------",					
+		"part04" : "none",
+                
+		"noteBlock05     " : "-------------- block05 ----------------",				
+		"part05" : "none"		
+		},
+                {
+		"word" : "miller",
+                "fontSize" : 37,
+                
+                "noteBlock01" : "-------------- block01  ----------------",
+		
+                "colorBlock01" : "images/RedBox.png",
+		"part01" : "mil",
+		
+		
+		"block01FirstLetter" : "-----------  block 01 first letter set -------",		
+		"let01_01" : "m",
+		"leftLet01_01" : 48,
+		"colorLet01_01" : "yellow",
+		
+		"block01SecondLetter" : "---------- block 01 second letter set ------------",
+		"let01_02" : "il",
+		"leftlet01_02" : 78,
+		"colorlet01_02" : "yellow",
+		
+                "block01ThirdLetter" : "-----------  block 01 third letter set  -------",		
+		"let01_03" : "",
+		"leftLet01_03" : 89,
+		"colorLet01_03" : "yellow",
+                
+                "block01ForthLetter" : "-----------  block 01 forth letter set -------",		
+		"let01_04" : "",
+		"leftLet01_04" : 86,
+		"colorLet01_04" : "yellow", 
+                		                
+		"noteBlock02" : "-------------- block02 ----------------",
+		
+		"colorBlock02" : "images/GreenBox.png",
+		"part02" : "ler",		
+		
+		"block02FirstLetter" : "-----------  block 02 first letter set  -------",		
+		"let02_01" : "l",
+		"leftLet02_01" : 46,
+		"colorLet02_01" : "yellow",
+		
+		"block02SecondLetter" : "---------- block 02 second letter set ------------",
+		"let02_02" : "er",
+		"leftLet02_02" : 62,
+		"colorLet02_02" : "yellow",
+		
+		"block02ThirdLetter" : "-----------  block 02 third letter set -------",		
+		"let02_03" : "",
+		"leftLet02_03" : 77,
+		"colorLet02_03" : "yellow",
+                
+                "block02ForthLetter" : "-----------  block 02 forth letter set -------",		
+		"let02_04" : "",
+		"leftLet02_04" : 86,
+		"colorLet02_04" : "yellow", 
+                               		
+		"noteBlock03     " : "-------------- block03 ----------------",						
+		"part03" : "none",		
+				                
+                "noteBlock04     " : "-------------- block04 ----------------",					
+		"part04" : "none",
+                
+		"noteBlock05     " : "-------------- block05 ----------------",				
+		"part05" : "none"		
+		},
+                {
+		"word" : "ordered",                
+                "fontSize" : 37,
+                
+                "noteBlock01" : "-------------- block01  ----------------",
+		
+                "colorBlock01" : "images/YellowBox.png",
+		"part01" : "or",
+				
+		"block01FirstLetter" : "-----------  block 01 first letter set -------",		
+		"let01_01" : "or",
+		"leftLet01_01" : 56,
+		"colorLet01_01" : "yellow",
+		
+		"block01SecondLetter" : "---------- block 01 second letter set ------------",
+		"let01_02" : "",
+		"leftlet01_02" : 57,
+		"colorlet01_02" : "",
+		
+                "block01ThirdLetter" : "-----------  block 01 third letter set  -------",		
+		"let01_03" : "",
+		"leftLet01_03" : 77,
+		"colorLet01_03" : "yellow",
+                
+                "block01ForthLetter" : "-----------  block 01 forth letter set -------",		
+		"let01_04" : "",
+		"leftLet01_04" : 86,
+		"colorLet01_04" : "yellow", 
+                
+                "noteBlock02" : "-------------- block02 ----------------",
+		
+		"colorBlock02" : "images/GreenBox.png",
+		"part02" : "dered",		
+		
+		"block02FirstLetter" : "-----------  block 02 first letter set  -------",		
+		"let02_01" : "der",
+		"leftLet02_01" : 25,
+		"colorLet02_01" : "yellow",
+		
+		"block02SecondLetter" : "---------- block 02 second letter set ------------",
+		"let02_02" : "ed",
+		"leftLet02_02" : 85,
+		"colorLet02_02" : "yellow",
+		
+		"block02ThirdLetter" : "-----------  block 02 third letter set -------",		
+		"let02_03" : "",
+		"leftLet02_03" : 89,
+		"colorLet02_03" : "yellow",
+                
+                "block02ForthLetter" : "-----------  block 02 forth letter set -------",		
+		"let02_04" : "",
+		"leftLet02_04" : 86,
+		"colorLet02_04" : "yellow", 
+                		                              
+                "noteBlock03     " : "-------------- block03 ----------------",						
+		"part03" : "none",		
+				                
+		"noteBlock04     " : "-------------- block04 ----------------",				
+		"part04" : "none",
+                
+                "noteBlock05     " : "-------------- block05 ----------------",				
+		"part05" : "none"
+		},
+                {
+		"word" : "slowly",		
+                
+                "noteBlock01" : "-------------- block01  ----------------",
+		"fontSize" : 37,
+                "colorBlock01" : "images/BlueBox.png",
+		"part01" : "slow",
+		
+		
+		"block01FirstLetter" : "-----------  block 01 first letter set -------",		
+		"let01_01" : "sl",
+		"leftLet01_01" : 38,
+		"colorLet01_01" : "yellow",
+		
+		"block01SecondLetter" : "---------- block 01 second letter set ------------",
+		"let01_02" : "ow",
+		"leftlet01_02" : 64,
+		"colorlet01_02" : "yellow",
+		
+                "block01ThirdLetter" : "-----------  block 01 third letter set  -------",		
+		"let01_03" : "",
+		"leftLet01_03" : 84,
+		"colorLet01_03" : "yellow",
+                
+                "block01ForthLetter" : "-----------  block 01 forth letter set -------",		
+		"let01_04" : "",
+		"leftLet01_04" : 86,
+		"colorLet01_04" : "yellow", 
+                		                              
+		"noteBlock02" : "-------------- block02 ----------------",
+		
+		"colorBlock02" : "images/GreenBox.png",
+		"part02" : "ly",		
+		
+		"block02FirstLetter" : "-----------  block 02 first letter set  -------",		
+		"let02_01" : "ly",
+		"leftLet02_01" : 60,
+		"colorLet02_01" : "yellow",
+		
+		"block02SecondLetter" : "---------- block 02 second letter set ------------",
+		"let02_02" : "",
+		"leftLet02_02" : 58,
+		"colorLet02_02" : "yellow",
+		
+		"block02ThirdLetter" : "-----------  block 02 third letter set -------",		
+		"let02_03" : "",
+		"leftLet02_03" : 95,
+		"colorLet02_03" : "yellow",                              
+		
+                "block02ForthLetter" : "-----------  block 02 forth letter set -------",		
+		"let02_04" : "",
+		"leftLet02_04" : 86,
+		"colorLet02_04" : "yellow", 
+                
+                
+		"noteBlock03     " : "-------------- block03 ----------------",						
+		"part03" : "none",		
+						
+		"noteBlock04     " : "-------------- block04 ----------------",				
+		"part04" : "none",
+                
+                "noteBlock05     " : "-------------- block05 ----------------",				
+		"part05" : "none"
+		},
+                {
+		"word" : "trudged",
+                "fontSize" : 32,
+                
+                "noteBlock01" : "-------------- block01  ----------------",
+		
+                "colorBlock01" : "images/PurpleBox.png",
+		"part01" : "trudged",
+		
+		
+		"block01FirstLetter" : "-----------  block 01 first letter set -------",		
+		"let01_01" : "tr",
+		"leftLet01_01" : 17,
+		"colorLet01_01" : "yellow",
+		
+		"block01SecondLetter" : "---------- block 01 second letter set ------------",
+		"let01_02" : "ud",
+		"leftlet01_02" : 42,
+		"colorlet01_02" : "yellow",
+		
+                "block01ThirdLetter" : "-----------  block 01 third letter set  -------",		
+		"let01_03" : "g",
+		"leftLet01_03" : 76,
+		"colorLet01_03" : "yellow",
+                
+                "block01ForthLetter" : "-----------  block 01 forth letter set -------",		
+		"let01_04" : "ed",
+		"leftLet01_04" : 97,
+		"colorLet01_04" : "yellow", 
+                		                              
+		"noteBlock02"      : "-------------- block02 ----------------",				
+		"part02" : "none",		
+						
+		"noteBlock03     " : "-------------- block03 ----------------",						
+		"part03" : "none",		
+						
+		"noteBlock04     " : "-------------- block04 ----------------",				
+		"part04" : "none",
+                
+                "noteBlock05     " : "-------------- block05 ----------------",				
+		"part05" : "none"
+		},
+                {
+		"word" : "walked",
+                "fontSize" : 37,
+                
+                "noteBlock01" : "-------------- block01  ----------------",
+		
+                "colorBlock01" : "images/RedBox.png",
+		"part01" : "walked",
+		
+		
+		"block01FirstLetter" : "-----------  block 01 first letter set -------",		
+		"let01_01" : "w",
+		"leftLet01_01" : 18,
+		"colorLet01_01" : "yellow",
+		
+		"block01SecondLetter" : "---------- block 01 second letter set ------------",
+		"let01_02" : "alk",
+		"leftlet01_02" : 44,
+		"colorlet01_02" : "yellow",
+		
+                "block01ThirdLetter" : "-----------  block 01 third letter set  -------",		
+		"let01_03" : "ed",
+		"leftLet01_03" : 91,
+		"colorLet01_03" : "yellow",
+                
+                "block01ForthLetter" : "-----------  block 01 forth letter set -------",		
+		"let01_04" : "",
+		"leftLet01_04" : 88,
+		"colorLet01_04" : "yellow", 
+                		                
+		"noteBlock02" : "-------------- block02 ----------------",			    
+		"part02" : "none",					    
+                               		
+		"noteBlock03     " : "-------------- block03 ----------------",						
+		"part03" : "none",		
+				                
+                "noteBlock04     " : "-------------- block04 ----------------",						
+		"part04" : "none",
+                
+                "noteBlock05     " : "-------------- block05 ----------------",				
+		"part05" : "none"
+		}          
+]
