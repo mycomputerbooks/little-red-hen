@@ -10,71 +10,93 @@
 var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonly used Edge classes
    //Edge symbol: 'stage'
    (function(symbolName) {
+      //start swipeUpDown function
     function swipeUpDown(){
-            var supportTouch = $.support.touch,
-                //scrollEvent = "touchmove scroll",
-                touchStartEvent = supportTouch ? "touchstart" : "mousedown",
-                touchStopEvent = supportTouch ? "touchend" : "mouseup",
-                touchMoveEvent = supportTouch ? "touchmove" : "mousemove";
-            $.event.special.swipeupdown = {
-                setup: function() {
-                    var thisObject = this;
-                    var $this = $(thisObject);
-                    $this.bind(touchStartEvent, function(event) {
-                        var data = event.originalEvent.touches ?
-                                event.originalEvent.touches[ 0 ] :
-                                event,
-                                start = {
-                                    time: (new Date).getTime(),
-                                    coords: [ data.pageX, data.pageY ],
-                                    origin: $(event.target)
-                                },
-                                stop;
-                        function moveHandler(event) {
-                            if (!start) {
-                                return;
-                            }
-                            var data = event.originalEvent.touches ?
-                                    event.originalEvent.touches[ 0 ] :
-                                    event;
-                            stop = {
-                                time: (new Date).getTime(),
-                                coords: [ data.pageX, data.pageY ]
-                            };
-                            // prevent scrolling
-                            if (Math.abs(start.coords[1] - stop.coords[1]) > 10) {
-                                event.preventDefault();
-                            }
-                        }
-                        $this
-                                .bind(touchMoveEvent, moveHandler)
-                                .one(touchStopEvent, function(event) {
-                            $this.unbind(touchMoveEvent, moveHandler);
-                            if (start && stop) {
-                                if (stop.time - start.time < 1000 &&
-                                        Math.abs(start.coords[1] - stop.coords[1]) > 30 &&
-                                        Math.abs(start.coords[0] - stop.coords[0]) < 75) {
-                                    start.origin
-                                            .trigger("swipeupdown")
-                                            .trigger(start.coords[1] > stop.coords[1] ? "swipeup" : "swipedown");
-                                }
-                            }
-                            start = stop = undefined;
-                        });
-                    });
-                }
-            };
-            $.each({
-                swipedown: "swipeupdown",
-                swipeup: "swipeupdown"
-            }, function(event, sourceEvent){
-                $.event.special[event] = {
-                    setup: function(){
-                        $(this).bind(sourceEvent, $.noop);
-                    }
-                };
-            });
+    var lastTouchTime = 0;   // used to ignore the fake mouse events iPads send after a touch
+
+    function getPoint(event) {
+        var oe = event.originalEvent;
+        if (oe && oe.touches && oe.touches.length) {
+            return oe.touches[0];
+        }
+        if (oe && oe.changedTouches && oe.changedTouches.length) {
+            return oe.changedTouches[0];
+        }
+        return event;   // mouse event
     }
+
+    $.event.special.swipeupdown = {
+        setup: function() {
+            var $this = $(this);
+
+            $this.on("touchstart.swipeud mousedown.swipeud", function(event) {
+                var isTouch = event.type === "touchstart";
+
+                if (isTouch) {
+                    lastTouchTime = Date.now();
+                } else {
+                    // skip mouse events that come right after a touch
+                    if (Date.now() - lastTouchTime < 800) { return; }
+                    if (event.which !== 1) { return; }   // left button only
+                    event.preventDefault();              // stops image dragging / text selection
+                }
+
+                var data = getPoint(event),
+                    start = {
+                        time: Date.now(),
+                        coords: [data.pageX, data.pageY],
+                        origin: $(event.target)
+                    },
+                    stop,
+                    moveEvent = isTouch ? "touchmove.swipeud" : "mousemove.swipeud",
+                    endEvent  = isTouch ? "touchend.swipeud"  : "mouseup.swipeud",
+                    // for the mouse, watch the whole document so letting go
+                    // outside the element still counts
+                    $target   = isTouch ? $this : $(document);
+
+                function moveHandler(e) {
+                    var d = getPoint(e);
+                    stop = {
+                        time: Date.now(),
+                        coords: [d.pageX, d.pageY]
+                    };
+                    // stop the page from scrolling during a vertical swipe
+                    if (Math.abs(start.coords[1] - stop.coords[1]) > 10) {
+                        e.preventDefault();
+                    }
+                }
+
+                $target.on(moveEvent, moveHandler)
+                       .one(endEvent, function() {
+                    $target.off(moveEvent, moveHandler);
+
+                    if (start && stop) {
+                        var dx = Math.abs(start.coords[0] - stop.coords[0]),
+                            dy = Math.abs(start.coords[1] - stop.coords[1]);
+
+                        if (stop.time - start.time < 1000 && dy > 30 && dx < 75) {
+                            start.origin
+                                .trigger("swipeupdown")
+                                .trigger(start.coords[1] > stop.coords[1] ? "swipeup" : "swipedown");
+                        }
+                    }
+                    start = stop = undefined;
+                });
+            });
+        },
+        teardown: function() {
+            $(this).off(".swipeud");
+        }
+    };
+
+    $.each({ swipeup: "swipeupdown", swipedown: "swipeupdown" }, function(evt, sourceEvent) {
+        $.event.special[evt] = {
+            setup: function() { $(this).on(sourceEvent, $.noop); },
+            teardown: function() { $(this).off(sourceEvent); }
+        };
+    });
+}  
+    //end of swipeupdown
     var dom = document.body;
     var _width;
     var _height;
