@@ -23,15 +23,23 @@
       overflow-x: hidden;
     }
 
-    /* Full size by default (desktop) */
+    /* Desktop: 100% */
     #pageScale {
       width: 100%;
       transform: scale(1);
       transform-origin: top center;
     }
 
-    /* Phones and iPads: 90% */
-    @media (max-width: 768px), (pointer: coarse) {
+    /* iPads (touchscreens): 95% */
+    @media (pointer: coarse) {
+      #pageScale {
+        transform: scale(0.95);
+        margin-bottom: -5vh;
+      }
+    }
+
+    /* Phones (small screens, portrait or landscape): 90% */
+    @media (max-width: 600px), (pointer: coarse) and (max-height: 600px) {
       #pageScale {
         transform: scale(0.9);
         margin-bottom: -10vh;
