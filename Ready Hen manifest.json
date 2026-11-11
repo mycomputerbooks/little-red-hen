@@ -1,0 +1,9 @@
+{
+  "name": "Ready Hen Stage",
+  "short_name": "Ready Hen",
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}

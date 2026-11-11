@@ -2,9 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Ready Hen Stage</title>
    <!-- my test change -->
+
+  <!-- Full screen when opened from the Home Screen (iPhone / iPad) -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Ready Hen">
+  <link rel="manifest" href="manifest.json">
+
   <!-- Adobe Edge Runtime -->
   <script src="edge_includes/edge.6.0.0.min.js"></script>
 
@@ -21,6 +29,7 @@
       justify-content: center;
       align-items: flex-start;
       overflow-x: hidden;
+      background: #fff;
     }
 
     /* Desktop: 100% */
@@ -83,6 +92,29 @@
         }
       }
     }, {"dom":[]});
+  </script>
+
+  <!-- In a regular browser tab: go full screen on first tap (Android, iPad) -->
+  <script>
+    (function () {
+      var isStandalone =
+        window.navigator.standalone === true ||
+        window.matchMedia('(display-mode: standalone)').matches ||
+        window.matchMedia('(display-mode: fullscreen)').matches;
+
+      if (isStandalone) return;
+
+      function goFullscreen() {
+        var el = document.documentElement;
+        var req = el.requestFullscreen || el.webkitRequestFullscreen;
+        if (req && !document.fullscreenElement && !document.webkitFullscreenElement) {
+          try { req.call(el); } catch (e) {}
+        }
+      }
+
+      document.addEventListener('touchend', goFullscreen, { once: true });
+      document.addEventListener('click', goFullscreen, { once: true });
+    })();
   </script>
 
   <script src="cordova.js"></script>
