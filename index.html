@@ -13,6 +13,15 @@
   <meta name="apple-mobile-web-app-title" content="Ready Hen">
   <link rel="manifest" href="manifest.json">
 
+  <!-- Detect Home Screen web app mode -->
+  <script>
+    if (window.navigator.standalone === true ||
+        window.matchMedia('(display-mode: standalone)').matches ||
+        window.matchMedia('(display-mode: fullscreen)').matches) {
+      document.documentElement.classList.add('standalone');
+    }
+  </script>
+
   <!-- Adobe Edge Runtime -->
   <script src="edge_includes/edge.6.0.0.min.js"></script>
 
@@ -39,17 +48,24 @@
       transform-origin: top center;
     }
 
-    /* iPads (touchscreens): 95% */
+    /* iPads in Safari (touchscreens): 95% */
     @media (pointer: coarse) {
       #pageScale {
         transform: scale(0.95);
         margin-bottom: -5vh;
       }
+
+      /* iPads opened from the Home Screen: back to 100% */
+      html.standalone #pageScale {
+        transform: scale(1);
+        margin-bottom: 0;
+      }
     }
 
     /* Phones (small screens, portrait or landscape): 90% */
     @media (max-width: 600px), (pointer: coarse) and (max-height: 600px) {
-      #pageScale {
+      #pageScale,
+      html.standalone #pageScale {
         transform: scale(0.9);
         margin-bottom: -10vh;
       }
